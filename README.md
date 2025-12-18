@@ -60,7 +60,7 @@ Throughout the process, attention was given to usability and interaction—click
 ## ▶️ How to Run the Project
 
 1. Install **[RainMeter](https://www.rainmeter.net/)**
-2. Clone or download this repository
+2. Clone or download the `Skin` folder of this repository
 3. Place the `.ini` files in the `Skins` folder of RainMeter
 4. Install required plugins: [FrostedGlass](https://forum.rainmeter.net/download/file.php?id=32681&sid=7a19bda17eeca5916894c40401920e42), [WebNowPlaying](https://github.com/keifufu/WebNowPlaying-Rainmeter/releases/download/2.0.7/WebNowPlayingRedux_2.0.7.rmskin). Make sure to only download the `.dll` in the installation wizard.
 5. Load the widgets via RainMeter manager
