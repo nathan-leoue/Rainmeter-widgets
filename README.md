@@ -28,13 +28,15 @@ All widgets are designed with a **frosted glass effect** and minimalistic style.
 - Crypto Tracker (ETH)
 
   - Displays **current Ethereum price in USD**
-  - Shows **24h high, low, and percentage change**
+  - Shows **highest price, lowest price, and percentage change** (24h).
   - Clickable to open **CoinMarketCap page**
 
 - Music Player
   - Shows **current track title and artist**
-  - Displays **album art**
-  - Play/Pause, Next, Previous controls directly from the widget (tip: clicking the album art also pause/unpause)
+  - Displays **album cover**
+  - Handles long track titles: if the title is too long, it is clipped with "..."
+  - Tooltip on hover: the full track title is displayed when hovering over the text
+  - Play/Pause, Next, Previous controls directly from the widget (tip: clicking the album cover also pause/unpause)
 
 
 ## 🛠️ The Process
@@ -60,7 +62,7 @@ Throughout the process, attention was given to usability and interaction—click
 1. Install **[RainMeter](https://www.rainmeter.net/)**
 2. Clone or download this repository
 3. Place the `.ini` files in the `Skins` folder of RainMeter
-4. Install required plugins: [FrostedGlass](https://forum.rainmeter.net/download/file.php?id=32681&sid=7a19bda17eeca5916894c40401920e42), [WebNowPlaying](https://github.com/keifufu/WebNowPlaying-Rainmeter/releases/download/2.0.7/WebNowPlayingRedux_2.0.7.rmskin). Make sure to only download the `.dll` in the installastion wizard
+4. Install required plugins: [FrostedGlass](https://forum.rainmeter.net/download/file.php?id=32681&sid=7a19bda17eeca5916894c40401920e42), [WebNowPlaying](https://github.com/keifufu/WebNowPlaying-Rainmeter/releases/download/2.0.7/WebNowPlayingRedux_2.0.7.rmskin). Make sure to only download the `.dll` in the installation wizard.
 5. Load the widgets via RainMeter manager
 
 ⚠️ If the frosted glass doesn't work, make sure to activate the transparency effect in Windows (Settings > Personalisation > Colors > Transparency effect)
